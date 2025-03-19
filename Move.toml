@@ -1,0 +1,16 @@
+[package]
+name = "CredentialVerification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+TalentVerify="0xf89f0e048a77d30c0504a8e0bdd94d454eda49ced419aefeab048fdfd4ebd7c8"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
